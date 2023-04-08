@@ -54,7 +54,7 @@ variable "rds_instance" {
     engine_version      = "8.0.32"
     instance_class      = "db.t2.micro"
     multi_az            = false
-    name                = "mydb"
+    db_name             = "mydb"
     skip_final_snapshot = true
   }
 }
